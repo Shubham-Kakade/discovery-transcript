@@ -407,6 +407,158 @@ Each item below is tagged by what kind of gap it is, so it's clear what would ac
 
 # Task 3: Process Impprovement assesment
 
+This assessment builds directly on the process documentation and gap analysis developed in Tasks 1 and 2. It identifies the operational challenges currently limiting consistency, profitability, and scalability across the client engagement lifecycle.
+
+## Operational Challenges
+
+**Analytical framework:** People & Ownership · Process & Workflow · Technology & Documentation · Governance & Risk Exposure
+
+Each finding below follows a fixed structure — Finding, Root Cause, Supporting Evidence, Business Impact — so severity and consequence are visible before the underlying detail.
+
+## Section A — People and Ownership
+
+*Findings where the gap is a missing or overloaded role, rather than a missing rule or system.*
+
+### A1 — Managing Partner is a structural single point of failure · Severity: High
+
+**Root Cause:** No delegation rule exists for the three highest-leverage steps in the lifecycle — discovery calls, proposal authorship, and assignment overrides.
+
+**Supporting Evidence:** "Either I or one of our consultants," "usually I create the proposal," "sometimes I assign work directly."
+
+**Business Impact:** The firm cannot scale engagement volume without bottlenecking at exactly these points. This is a growth ceiling, not a workload issue, and nearly every other finding in this assessment traces back to it.
+
+### A2 — Proposal authorship has no qualification standard or review checkpoint · Severity: Medium
+
+**Root Cause:** "Senior consultant" is used as a working category with no documented criteria, and no review step is confirmed before a proposal reaches a client.
+
+**Supporting Evidence:** "Some senior consultants create their own... everyone has their own approach."
+
+**Business Impact:** Pricing and scoping authority has been decentralized without decentralizing oversight, risking materially different terms for comparable engagements with no defensible rationale.
+
+### A3 — No accountable owner exists for enforcing a future standardized process · Severity: High
+
+**Root Cause:** The stated goal of a standardized process, "from sales through project completion," was never paired with a named enforcement role.
+
+**Supporting Evidence:** Nine decision points and eight known exceptions currently run on individual judgment with zero designated process owner.
+
+**Business Impact:** A well-designed process without an enforcement owner will decay back into today's informal patterns within months, especially under the same client time pressure driving deviations now.
+
+---
+
+## Section B — Process and Workflow
+
+*Findings where the gap is a missing rule or an unbounded step in the sequence itself.*
+
+### B1 — Delivery sometimes begins before the project record exists · Severity: High
+
+**Root Cause:** No hard gate prevents work from starting before Asana setup is complete; client urgency currently overrides the intended sequence.
+
+**Supporting Evidence:** "Occasionally consultants start work before everything is fully set up because clients want to move quickly."
+
+**Business Impact:** This is the highest-impact deviation identified in discovery. Real billable work can exist with no task, no folder, and no timestamp, and whether it is ever reconciled afterward was never confirmed.
+
+### B2 — The proposal revision cycle is an open loop with no stated limit · Severity: Medium
+
+**Root Cause:** No cap exists on how many revision rounds the firm will accommodate before escalating price, scope, or declining.
+
+**Supporting Evidence:** "Sometimes clients want revisions," with no bound described.
+
+**Business Impact:** An unbounded loop converts what should be a fixed negotiation step into unstructured, unbilled time that can expand indefinitely.
+
+### B3 — Core operational terms have no documented definition · Severity: Medium
+
+**Root Cause:** "High-priority client," "properly logged lead," and "senior consultant" are all used as working categories with no written criteria behind any of them.
+
+**Supporting Evidence:** Each term appears repeatedly in the discovery call without a stated rule governing it.
+
+**Business Impact:** The same situation can be handled two different ways depending entirely on who is making the call that day — this is the operational root of the inconsistency the stakeholder named, unprompted, as the firm's single biggest challenge.
+
+### B4 — Client communication effort is not linked to engagement economics · Severity: Medium
+
+**Root Cause:** Communication format — meeting, report, or call — is chosen ad hoc per engagement with no tier tied to size or fee.
+
+**Supporting Evidence:** "It varies quite a bit depending on the engagement."
+
+**Business Impact:** A written report can consume hours a call would not, creating an invisible margin risk that no one is currently tracking.
+
+---
+
+## Section C — Technology and Documentation
+
+*Findings where the gap is a missing system of record or unreliable data capture.*
+
+### C1 — No single source of truth exists for project status · Severity: High
+
+**Root Cause:** Status updates are split across Asana, Slack, and email depending on the individual consultant reporting, with no reconciliation owner.
+
+**Supporting Evidence:** "Some provide updates through Slack or email instead."
+
+**Business Impact:** Leadership's visibility into portfolio health depends entirely on which consultants happen to be diligent. Problems on a less-visible project can drift for weeks until a client raises it first.
+
+### C2 — Project documentation is fragmented across three unlinked locations · Severity: Medium
+
+**Root Cause:** No system-of-record rule exists; documentation lands wherever a consultant happens to save it.
+
+**Supporting Evidence:** "Sometimes it's in Asana, sometimes Google Drive, sometimes email."
+
+**Business Impact:** This is an institutional continuity risk distinct from day-to-day status visibility. If a consultant leaves or a client disputes a deliverable, there is no guaranteed single place holding the complete record.
+
+### C3 — Inconsistent CRM logging undermines pipeline visibility · Severity: Medium
+
+**Root Cause:** HubSpot logging is treated as optional and is specifically skipped more often for fast-moving referrals.
+
+**Supporting Evidence:** "Sometimes we don't if it's a referral and we're moving quickly."
+
+**Business Impact:** The firm has the least reliable data on precisely its warmest, highest-value leads, limiting its ability to measure conversion by channel.
+
+### C4 — Capacity planning has no scalable infrastructure behind it · Severity: Medium
+
+**Root Cause:** Resource planning runs on a manual spreadsheet with no defined update trigger when the Managing Partner assigns work outside the normal process.
+
+**Supporting Evidence:** "There isn't a formal resource planning system. We mostly track capacity in a spreadsheet."
+
+**Business Impact:** This infrastructure gap is what makes double-booking (D2) a near-certainty rather than a remote risk as headcount or concurrent engagements grow.
+
+---
+
+## Section D — Governance and Risk Exposure
+
+*Findings where the gap has direct financial, legal, or credibility consequences.*
+
+### D1 — Time entry inconsistency creates revenue leakage, not just delayed billing · Severity: High
+
+**Root Cause:** No confirmed authority exists to escalate a late time entry; submission relies entirely on individual discipline.
+
+**Supporting Evidence:** "Sometimes time entries come in late, which delays billing."
+
+**Business Impact:** Two risks live in this one gap: delayed cash flow today, and an untested possibility that some hours are never logged at all, meaning the firm may be permanently losing revenue, not just collecting it late.
+
+### D2 — Dual, unsynchronized assignment authority risks double-booking at scale · Severity: High
+
+**Root Cause:** The Project Manager assigns work by default, but the Managing Partner can override this directly with no confirmed mechanism ensuring the PM is aware when it happens.
+
+**Supporting Evidence:** "Sometimes I assign work directly if it's a high-priority client."
+
+**Business Impact:** Combined with the infrastructure gap in C4, this is a near-certain source of overallocated consultants and missed deadlines as engagement volume grows.
+
+### D3 — The firm lacks the scale data needed to right-size any recommendation · Severity: Medium
+
+**Root Cause:** Headcount, concurrent engagement volume, and approximate revenue were never established during discovery.
+
+**Supporting Evidence:** Absent entirely from the transcript.
+
+**Business Impact:** Any standardization recommendation risks being too heavy for a small operation or too light for a larger one.
+
+### D4 — The entire assessment currently rests on a single informant · Severity: High
+
+**Root Cause:** Every finding is drawn from one conversation with the Managing Partner; no consultant or client perspective has been captured.
+
+**Supporting Evidence:** Client satisfaction, consultant appetite for change, and the accuracy of leadership's own read on project health are all unverified assumptions.
+
+**Business Impact:** Recommendations built on one perspective, however candid, carry real risk of missing how the process is actually experienced by the people executing and receiving it. This should be closed before findings are finalized, not after.
+
+## Process Impprovement assesment
+
 The discovery exercise indicates that the operational challenges identified throughout the current-state assessment should not be viewed as isolated process inefficiencies requiring individual corrective actions. Rather, they represent interconnected symptoms of the firm's underlying operating model, where critical activities rely heavily on individual expertise, operational information is dispersed across multiple platforms, and coordination is primarily enabled through informal communication rather than standardized governance. While these practices provide the flexibility necessary to respond to diverse client requirements, they also introduce variability in execution, reduce operational transparency, and increase administrative effort as engagement complexity and delivery volumes grow.
 
 Consequently, sustainable process improvement should focus on strengthening the structural foundations that govern process execution rather than optimizing individual activities in isolation. The opportunities presented below are therefore organized around four strategic themes identified during the assessment: standardizing process governance, improving operational visibility, reducing manual administrative effort through structured automation, and strengthening communication and accountability. Collectively, these recommendations are intended to enhance consistency, scalability, operational resilience, and long-term process maturity while complementing the firm's existing delivery approach.
